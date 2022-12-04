@@ -1,7 +1,7 @@
-function home(){
+function Home(){
     return(
-
+<div>new components</div>
     );
 }
 
-export home;
+export default Home;
