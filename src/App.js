@@ -33,6 +33,7 @@ function App() {
     
 }
 
+
 function FavItem(params){
        
   if(favo.includes(params)){
@@ -47,11 +48,10 @@ function FavItem(params){
 }
 
 
-
-
   return (
     <>
        <Home CartCount={cartItem.length} />
+     
 
   <Routes>
       <Route path='/' element={ <ALL AddToCart={AddToCart} cartItem={cartItem} FavItem={FavItem} favo={favo}  /> }></Route>
@@ -66,7 +66,6 @@ function FavItem(params){
       <Route path='/favorites' element={ <Favourites AddToCart={AddToCart} cartItem={cartItem} FavItem={FavItem} favo={favo}  />}></Route>
       <Route path='/login' element={ <Login/>}></Route>
       <Route path='/signup' element={ <Signup/>}></Route>
-
 
       
   </Routes>
