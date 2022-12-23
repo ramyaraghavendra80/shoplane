@@ -29,7 +29,7 @@ function Cart(props) {
             <p className='title'>{item.title}</p>
             <span className='rating'>
                 <Rate />
-                <p className='count'>{item.count}</p>
+                <p className='count'>{item.count} ramya</p>
             </span>
             <p className='price'>{item.price}</p>
             <button onClick={()=>AddToCart(item)} className='addtocart'><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
